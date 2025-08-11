@@ -13,7 +13,7 @@ import Attendance from "@/components/pages/Attendance"
 function App() {
   return (
     <BrowserRouter>
-<div className="min-h-screen bg-pink-50">
+<div className="min-h-screen bg-pink-100">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
